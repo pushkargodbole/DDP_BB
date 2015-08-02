@@ -1,0 +1,4 @@
+This program uses a branch and Bound approach to find the globally optimal solution for an aircraft ground scheduling problem given the airport map layout and flight details. The segment type (Runway/Taxiway) is considered in this version to reduce the path pool of aircraft to a pracrically feasible one. Pointers are used to store and queue unexplored nodes in the BnB trees. Refer to the presentation file prez.pdf for details of the problem and the working of the algorithm.
+
+Command : 
+./a.out map_file flights_file solution_file tolerance
